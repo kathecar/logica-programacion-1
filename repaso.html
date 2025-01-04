@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Formulario Orden de Números</title>
+  <link rel="stylesheet" href="repaso.css">
+</head>
+<body>
+  <!-- Formulario corregido -->
+  <form id="resultado">
+    <center><h1 class="Titulo">Orden de números</h1></center>
+
+    <!-- Campos de entrada -->
+    <center>
+      <input type="number" id="numero1" name="Número1" placeholder="Escribe el primer número">
+      <input type="number" id="numero2" name="Número2" placeholder="Escribe el segundo número">
+      <input type="number" id="numero3" name="Número3" placeholder="Escribe el tercer número"></center>
+
+    <!-- Botones -->
+    <div class="botones">
+      <div class="boton">
+        <button type="button" onclick="katheresultado()">Ordenar</button>
+      </div>
+      <div class="boton">
+        <button type="button" onclick="reiniciar()">Reiniciar</button>
+      </div>
+    </div>
+  </form>
+  <center> 
+    <div id="bloqueResultado"> <!--Aqui estoy haciendoun bloque que guarde los elementos -->
+      <h3>Resultado</h3>  <!-- Aqui aparecera el resultado despues de ejecutar el codigo js -->
+      <div id="numerosiguales">Resultado</div>
+      <div id="resultadoTexto">Resultado</div>
+      <div id="resultadoTexto2">Resultado</div>
+
+    </div>
+  </center>
+
+  
+  <!-- Vinculando el archivo JavaScript -->
+  <script src="repaso.js"></script>
+</body>
+</html>

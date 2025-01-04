@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&display=swap');
+
+body {
+    background-image: url(fondo.jpg);
+}
+.Titulo {
+    font-family: 'Atma', sans-serif;
+    font-size: 50px;
+    color: #43038d;
+    text-align: center;
+    margin-top: 50px;
+}
+
+input {
+    display: block;
+    margin-bottom: 10px; /* Espaciado entre los inputs */
+    padding: 5px;       /* Espaciado interno para mejor visualización */
+    font-size: 16px;    /* Tamaño de fuente cómodo */
+    width: 80%;        /* Ocupa todo el ancho disponible */
+    max-width: 300px;   /* Límite del ancho máximo */
+    text-align: center; /* me centra el texto*/
+}
+    form {
+    text-align: center;     /* Centra el texto dentro del formulario */
+}
+#bloqueResultado {
+    display: block;
+    margin-bottom: 30px; /* Espaciado entre los inputs */
+    padding: 5px;       /* Espaciado interno para mejor visualización */
+    font-size: 40px;    /* Tamaño de fuente cómodo */
+    width: 80%;        /* Ocupa todo el ancho disponible */
+    max-width: 300px;   /* Límite del ancho máximo */
+    color: #070707;
+    text-align: center; /* me centra el texto*/
+    font-family: 'Atma', sans-serif;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #43038d;
+
+}
+#resultadoTexto {
+    font-size: 13px; /* Tamaño del texto del resultado */
+    color: #000000; /* Color del texto */
+    margin-top: 13px; /* Espaciado superior */
+    font-family: 'Atma', sans-serif;
+    text-align: center; /* me centra el texto*/
+
+}
+#numerosiguales {
+    font-size: 13px; /* Tamaño del texto del resultado */
+    color: #000000; /* Color del texto */
+    margin-top: 13px; /* Espaciado superior */
+    font-family: 'Atma', sans-serif;
+    text-align: center; /* me centra el texto*/
+
+}
+#resultadoTexto2 {
+    font-size: 13px; /* Tamaño del texto del resultado */
+    color: #000000; /* Color del texto */
+    margin-top: 13px; /* Espaciado superior */
+    font-family: 'Atma', sans-serif;
+    text-align: center; /* me centra el texto*/
+
+}
